@@ -1,7 +1,7 @@
 body {
     margin: 0 auto;
     font-family: "Cambria", Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
+    font-size: 22px;
     
 }
 
@@ -17,6 +17,7 @@ body {
 h1 {
     text-align: center;
     font-size: 175%;
+    font-weight: 700;
 }
 
 section {
@@ -39,7 +40,7 @@ section h2 {
 
 section p {
     clear: right;
-    padding: 1% 1% 0 ;
+    padding: 20px 20px 0 ;
 }
 
 .chicken {
@@ -74,20 +75,20 @@ section p {
 
 @media (min-width: 768px) , (max-width: 991px){
     .first {
-        width: 48%;
-        margin: 15px 1%;
+        width: 45%;
+        margin: 15px 3%;
         float: left;
     }
 
     .second {
-        width: 48%;
-        margin: 15px 1%;
+        width: 45%;
+        margin: 15px 3% 15px 1%;
         float: left;
     }
 
     .third {
-        width: 98%;
-        margin: 15px 1%;
+        width: 94%;
+        margin: 15px 3%;
         box-sizing: border-box;
         
     }
@@ -95,8 +96,8 @@ section p {
 
 @media (max-width: 767px){
     .first, .second, .third {
-        width: 98%;
-        margin: 15px 1%;
+        width: 84%;
+        margin: 15px 8%;
         box-sizing: border-box;
     }
 }
